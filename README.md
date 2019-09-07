@@ -1,8 +1,7 @@
-# activity recognition survey
+# human activity recognition survey
 
 <table style="border:0px">
    <tr>
-       <td><img src="assets/taxonomy.jpg" frame=void rules=none></td>
        <td><img src="assets/taxonomy.jpg" frame=void rules=none></td>
    </tr>
 </table>
