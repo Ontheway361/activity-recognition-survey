@@ -7,7 +7,6 @@
 </table>
 
 ## Introduction
-This repo contains several models for video action recognition,
-including C3D, R2Plus1D, R3D, inplemented using PyTorch (0.4.0).
-Currently, we train these models on UCF101 and HMDB51 datasets.
-**More models and datasets will be available soon!**
+This repo contains the brief introduction of our survey paper : A Gentle Review of Deep Learning based Human Activity Recognition.
+
+<img src="https://github.com/Ontheway361/Human-Activity-Recognition/blob/master/assets/taxonomy.jpg" width="375" alt="首页"/>
