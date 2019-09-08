@@ -14,8 +14,6 @@ sampling:
 <table style="border:0px">
    <tr>
        <td><img src="assets/sequential/fig8a-random.jpg" width="600" height="400" frame=void rules=none></td>
-       <td><img src="assets/sequential/fig8b-uniform.jpg" width="600" height="400" frame=void rules=none></td>
-       <td><img src="assets/sequential/fig8c-segment.jpg" width="600" height="400" frame=void rules=none></td>
    </tr>
 </table>
 
