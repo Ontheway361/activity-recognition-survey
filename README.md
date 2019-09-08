@@ -15,9 +15,17 @@ In this section, we list the two streams of methods that transform the sequence 
 sampling:
 <table style="border:0px">
    <tr>
-       <td><img src="assets/sequential/fig8a-random.jpg" frame=void rules=none></td>
+       <td><img src="assets/sequential/fig8a-random.jpg" width="600" height="150" frame=void rules=none></td>
    <tr>
-       <td><img src="assets/sequential/fig8b-uniform.jpg" frame=void rules=none></td>
+       <td><img src="assets/sequential/fig8b-uniform.jpg" width="600" height="150" frame=void rules=none></td>
+   <tr>
+       <td><img src="assets/sequential/fig8c-segment.jpg" width="600" height="150" frame=void rules=none></td>
+   <tr>
+       <td><img src="assets/sequential/fig8d-adaptive.jpg" width="600" height="200" frame=void rules=none></td>
+   <tr>
+       <td><img src="assets/sequential/fig8e-shot_based.jpg" width="600" height="200" frame=void rules=none></td>
+
+
 </table>
 
 pooling:
