@@ -16,7 +16,7 @@ sampling:
 <table style="border:0px">
    <tr>
        <td><img src="assets/sequential/fig8a-random.jpg" frame=void rules=none></td>
-   </tr>
+   <tr>
        <td><img src="assets/sequential/fig8b-uniform.jpg" frame=void rules=none></td>
 </table>
 
