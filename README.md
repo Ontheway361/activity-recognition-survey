@@ -13,5 +13,17 @@ In this section, we list the two streams of methods that transform the sequence 
 
 ### Temporal Aggregation
 sampling:
+<table style="border:0px">
+   <tr>
+       <td><img src="assets/sequential/fig8a-random.jpg" frame=void rules=none></td>
+       <td><img src="assets/sequential/fig8b-uniform.jpg" frame=void rules=none></td>
+   </tr>
+</table>
 
 pooling:
+<!-- <table style="border:0px">
+   <tr>
+       <td><img src="assets/demo1.gif" frame=void rules=none></td>
+       <td><img src="assets/demo2.gif" frame=void rules=none></td>
+   </tr>
+</table> -->
