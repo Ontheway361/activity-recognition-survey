@@ -6,15 +6,12 @@ In our survey paper, we group the approaches based on deep learning into three c
 This repo contains the brief introduction of our survey paper : A Gentle Review of Deep Learning based Human Activity Recognition. In this section we will introduce the outline of each categories.
 
 ## Sequence-based
+In this section, we list the two streams of methods that transform the sequence with variable length to fixed dimension. One is RNN(LSTM)-related approaches, the other is temporal aggregation related approaches.
+
 ### Recurrent Nets and Attention Mechanism
-<img src="assets/sequential/fig7-rnn.jpg" width="400" height="250" alt="首页"/>
+<img src="assets/sequential/fig7-rnn.jpg" width="300" height="180" alt="首页"/>
 
 ### Temporal Aggregation
 sampling:
-<table style="border:0px">
-   <tr>
-       <td><img src="assets/sequential/fig8a-random.jpg" width="600" height="400" frame=void rules=none></td>
-   </tr>
-</table>
 
 pooling:
