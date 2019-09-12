@@ -35,10 +35,8 @@ Pooling as the common component CNNs, which performs on features to to generate 
    <tr>
        a). local_pooling
        <td><img src="assets/sequential/fig10a-local_pooling.jpg" width="200" height="100" frame=void rules=none></td>
-   <tr>
        b). global_pooling
        <td><img src="assets/sequential/fig10b-global_pooling.jpg" width="200" height="100" frame=void rules=none></td>
-   <tr>
        c). slow_pooling
        <td><img src="assets/sequential/fig10c-slow_pooling.jpg" width="200" height="100" frame=void rules=none></td>
 </table>
