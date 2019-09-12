@@ -9,29 +9,39 @@ This repo contains the brief introduction of our survey paper : A Gentle Review 
 In this section, we list the two streams of methods that transform the sequence with variable length to fixed dimension. One is RNN(LSTM)-related approaches, the other is temporal aggregation related approaches.
 
 ### Recurrent Nets and Attention Mechanism
+Recurrent networks are ad hoc for sequential input, e.g. video, signal.
 <img src="assets/sequential/fig7-rnn.jpg" width="300" height="180" alt="首页"/>
 
 ### Temporal Aggregation
-sampling:
+Sampling and pooling are two major ways of temporal aggregation.
+For sampling, it is the most intuitive method to convert a flexible length sequence to fixed-length representation by taking the constant number of observations from a sequence. We group the tricks that based on sampling into five classes, e.g. random sampling, uniform sampling, segment random sampling, shot-based sampling and adaptive sampling. Following figs illustrate those sampling tricks.
 <table style="border:0px">
    <tr>
+       a). random sampling
        <td><img src="assets/sequential/fig8a-random.jpg" width="600" height="150" frame=void rules=none></td>
    <tr>
+       b). uniform sampling
        <td><img src="assets/sequential/fig8b-uniform.jpg" width="600" height="150" frame=void rules=none></td>
    <tr>
+       c). segment random sampling
        <td><img src="assets/sequential/fig8c-segment.jpg" width="600" height="150" frame=void rules=none></td>
    <tr>
-       <td><img src="assets/sequential/fig8d-adaptive.jpg" width="600" height="200" frame=void rules=none></td>
-   <tr>
+       d). shot-based sampling
        <td><img src="assets/sequential/fig8e-shot_based.jpg" width="600" height="200" frame=void rules=none></td>
-
-
+   <tr>
+       e). adaptive sampling
+       <td><img src="assets/sequential/fig8d-adaptive.jpg" width="600" height="200" frame=void rules=none></td>
 </table>
 
-pooling:
-<!-- <table style="border:0px">
+Pooling as the common component CNNs, which performs on features to to generate the more semantic features. We classify pooling-based approaches into three groups, e.g. local pooling, global pooling, slow pooling, according to the place and the times a pooling operation was executed.
+<table style="border:0px">
    <tr>
-       <td><img src="assets/demo1.gif" frame=void rules=none></td>
-       <td><img src="assets/demo2.gif" frame=void rules=none></td>
-   </tr>
-</table> -->
+       a). local_pooling
+       <td><img src="assets/sequential/fig10a-local_pooling.jpg" width="300" height="150" frame=void rules=none></td>
+   <tr>
+       b). global_pooling
+       <td><img src="assets/sequential/fig10b-global_pooling.jpg" width="300" height="150" frame=void rules=none></td>
+   <tr>
+       c). slow_pooling
+       <td><img src="assets/sequential/fig10c-slow_pooling.jpg" width="300" height="150" frame=void rules=none></td>
+</table>
