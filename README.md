@@ -15,26 +15,26 @@ Recurrent networks are ad hoc for sequential input, e.g. video, signal.
 ### Temporal Aggregation
 Sampling and pooling are two major ways of temporal aggregation.
 For sampling, it is the most intuitive method to convert a flexible length sequence to fixed-length representation by taking the constant number of observations from a sequence. We group the tricks that based on sampling into five classes, e.g. random sampling, uniform sampling, segment random sampling, shot-based sampling and adaptive sampling. Following figs illustrate those sampling tricks.
-\na). random sampling
+a.random sampling\n
 <img src="assets/sequential/fig8a-random.jpg" width="300" height="200" alt="首页"/>
-\nb). uniform sampling
+b. uniform sampling
 <img src="assets/sequential/fig8b-uniform.jpg" width="300" height="200" alt="首页"/>
-\nc). segment random sampling
+c. segment random sampling
 <img src="assets/sequential/fig8c-segment.jpg" width="300" height="200" alt="首页"/>
-\nd). shot-based sampling
+d. shot-based sampling
 <img src="assets/sequential/fig8e-shot_based.jpg" width="600" height="400" alt="首页"/>
-\ne). adaptive sampling
+e. adaptive sampling
 <img src="assets/sequential/fig8d-adaptive.jpg" width="600" height="400" alt="首页"/>
 
 Pooling as the common component CNNs, which performs on features to to generate the more semantic features. We classify pooling-based approaches into three groups, e.g. local pooling, global pooling, slow pooling, according to the place and the times a pooling operation was executed.
 <table style="border:0px">
    <tr>
        a). local_pooling
-       <td><img src="assets/sequential/fig10a-local_pooling.jpg" width="300" height="150" frame=void rules=none></td>
+       <td><img src="assets/sequential/fig10a-local_pooling.jpg" width="200" height="100" frame=void rules=none></td>
    <tr>
        b). global_pooling
-       <td><img src="assets/sequential/fig10b-global_pooling.jpg" width="300" height="150" frame=void rules=none></td>
+       <td><img src="assets/sequential/fig10b-global_pooling.jpg" width="200" height="100" frame=void rules=none></td>
    <tr>
        c). slow_pooling
-       <td><img src="assets/sequential/fig10c-slow_pooling.jpg" width="300" height="150" frame=void rules=none></td>
+       <td><img src="assets/sequential/fig10c-slow_pooling.jpg" width="200" height="100" frame=void rules=none></td>
 </table>
