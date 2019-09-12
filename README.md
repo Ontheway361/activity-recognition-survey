@@ -16,19 +16,19 @@ Recurrent networks are ad hoc for sequential input, e.g. video, signal.
 Sampling and pooling are two major ways of temporal aggregation.
 For sampling, it is the most intuitive method to convert a flexible length sequence to fixed-length representation by taking the constant number of observations from a sequence. We group the tricks that based on sampling into five classes, e.g. random sampling, uniform sampling, segment random sampling, shot-based sampling and adaptive sampling. Following figs illustrate those sampling tricks.
 <p>a.random sampling</p>
-<img src="assets/sequential/fig8a-random.jpg" width="600" height="300" alt="首页"/>
+<img src="assets/sequential/fig8a-random.jpg" width="600" height="150" alt="首页"/>
 
 <p>b. uniform sampling</p>
-<img src="assets/sequential/fig8b-uniform.jpg" width="600" height="300" alt="首页"/>
+<img src="assets/sequential/fig8b-uniform.jpg" width="600" height="150" alt="首页"/>
 
 <p>c. segment random sampling</p>
-<img src="assets/sequential/fig8c-segment.jpg" width="600" height="300" alt="首页"/>
+<img src="assets/sequential/fig8c-segment.jpg" width="600" height="150" alt="首页"/>
 
 <p>d. shot-based sampling</p>
-<img src="assets/sequential/fig8e-shot_based.jpg" width="600" height="400" alt="首页"/>
+<img src="assets/sequential/fig8e-shot_based.jpg" width="600" height="180" alt="首页"/>
 
 <p>e. adaptive sampling</p>
-<img src="assets/sequential/fig8d-adaptive.jpg" width="600" height="400" alt="首页"/>
+<img src="assets/sequential/fig8d-adaptive.jpg" width="600" height="180" alt="首页"/>
 
 Pooling as the common component CNNs, which performs on features to to generate the more semantic features. We classify pooling-based approaches into three groups, e.g. local pooling, global pooling, slow pooling, according to the place and the times a pooling operation was executed.
 <table style="border:0px">
