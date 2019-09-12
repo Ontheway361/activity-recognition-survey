@@ -16,8 +16,8 @@ Recurrent networks are ad hoc for sequential input, e.g. video, signal.
 Sampling and pooling are two major ways of temporal aggregation.
 For sampling, it is the most intuitive method to convert a flexible length sequence to fixed-length representation by taking the constant number of observations from a sequence. We group the tricks that based on sampling into five classes, e.g. random sampling, uniform sampling, segment random sampling, shot-based sampling and adaptive sampling. Following figs illustrate those sampling tricks.
 <table style="border:0px">
+   a). random sampling
    <tr>
-       a). random sampling
        <td><img src="assets/sequential/fig8a-random.jpg" width="600" height="150" frame=void rules=none></td>
    <tr>
        b). uniform sampling
