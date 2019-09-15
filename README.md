@@ -46,11 +46,20 @@ Video is an example which contains multiple views in the way that views can be  
 <img src="assets/view/fig12-two-stream.jpg" width="600" height="240" alt="首页"/>
 
 ### Combination
-In this branch, we reveal various methods that fuse views.
+In this subsection, we reveal various methods that fuse views. Compared with single-view/frame based approach, researchers extend the idea of temporal fusion into: early fusion, late fusion and slow fusion, those ideas are depicted in following figure(from left to right : single-view, early fusion, late fusion and slow fusion).
 <table style="border:0px">
    <tr>
        <td><img src="assets/view/combination/fig14a-single.jpg" width="180" height="150" frame=void rules=none></td>
        <td><img src="assets/view/combination/fig14b-early_fusion.jpg" width="180" height="150" frame=void rules=none></td>
        <td><img src="assets/view/combination/fig14c-late_fusion.jpg" width="180" height="150" frame=void rules=none></td>
        <td><img src="assets/view/combination/fig14d-slow_fusion.jpg" width="180" height="150" frame=void rules=none></td>
+</table>
+
+### Factorization
+As the structures with 3D convolutions become more complex, the training takes serious computational cost and memory demand. To mitigate the cost, there are a series of articles trying to factorize 3D kernels into 2D kernels and 1D kernels.
+<table style="border:0px">
+   <tr>
+       <td><img src="assets/view/factorization/fig16a-series_connect.jpg" width="300" height="250" frame=void rules=none></td>
+       <td><img src="assets/view/factorization/fig16b-parallel_connect.jpg" width="300" height="250" frame=void rules=none></td>
+       <td><img src="assets/view/factorization/fig16c-hybrid_connect.jpg" width="300" height="250" frame=void rules=none></td>
 </table>
