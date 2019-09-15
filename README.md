@@ -56,10 +56,19 @@ In this subsection, we reveal various methods that fuse views. Compared with sin
 </table>
 
 ### Factorization
-As the structures with 3D convolutions become more complex, the training takes serious computational cost and memory demand. To mitigate the cost, there are a series of articles trying to factorize 3D kernels into 2D kernels and 1D kernels.
+As the structures with 3D convolutions become more complex, the training takes serious computational cost and memory demand. To mitigate the cost, there are a series of articles trying to factorize 3D kernels into 2D kernels and 1D kernels(from left to right : series connect, parallel connect and hybrid connect).
 <table style="border:0px">
    <tr>
        <td><img src="assets/view/factorization/fig16a-series_connect.jpg" width="300" height="250" frame=void rules=none></td>
        <td><img src="assets/view/factorization/fig16b-parallel_connect.jpg" width="300" height="250" frame=void rules=none></td>
        <td><img src="assets/view/factorization/fig16c-hybrid_connect.jpg" width="300" height="250" frame=void rules=none></td>
+</table>
+
+## Depth-based
+In this section, we study the transformations from one vector space to another vector space. Before deep learning era, common approaches process feature extractors and classifiers independently. Influenced by that, deep learning was initially used as a feature extractor with a non-neuron classifier.
+<table style="border:0px">
+   <tr>
+       <td><img src="assets/depth/fig17a-scale_cnn_svm.jpg" width="300" height="250" frame=void rules=none></td>
+       <td><img src="assets/depth/factorization/fig17b-scale_cnn_fc.jpg" width="300" height="250" frame=void rules=none></td>
+       <td><img src="assets/depth/factorization/fig17c-end2end_d3wt.jpg" width="600" height="250" frame=void rules=none></td>
 </table>
