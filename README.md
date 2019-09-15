@@ -49,8 +49,8 @@ Video is an example which contains multiple views in the way that views can be  
 In this branch, we reveal various methods that fuse views.
 <table style="border:0px">
    <tr>
-       <td><img src="assets/view/combination/fig14a-single.jpg" width="150" height="150" frame=void rules=none></td>
-       <td><img src="assets/view/combination/fig14b-early_fusion.jpg" width="150" height="150" frame=void rules=none></td>
-       <td><img src="assets/view/combination/fig14c-late_fusion.jpg" width="150" height="150" frame=void rules=none></td>
-       <td><img src="assets/view/combination/fig14d-slow_fusion.jpg" width="150" height="150" frame=void rules=none></td>
+       <td><img src="assets/view/combination/fig14a-single.jpg" width="180" height="150" frame=void rules=none></td>
+       <td><img src="assets/view/combination/fig14b-early_fusion.jpg" width="180" height="150" frame=void rules=none></td>
+       <td><img src="assets/view/combination/fig14c-late_fusion.jpg" width="180" height="150" frame=void rules=none></td>
+       <td><img src="assets/view/combination/fig14d-slow_fusion.jpg" width="180" height="150" frame=void rules=none></td>
 </table>
