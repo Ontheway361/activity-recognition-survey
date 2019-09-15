@@ -68,7 +68,7 @@ As the structures with 3D convolutions become more complex, the training takes s
 In this section, we study the transformations from one vector space to another vector space. Before deep learning era, common approaches process feature extractors and classifiers independently. Influenced by that, deep learning was initially used as a feature extractor with a non-neuron classifier.
 <table style="border:0px">
    <tr>
-       <td><img src="assets/depth/fig17a-scale_cnn_svm.jpg" width="300" height="250" frame=void rules=none></td>
-       <td><img src="assets/depth/fig17b-scale_cnn_fc.jpg" width="300" height="250" frame=void rules=none></td>
-       <td><img src="assets/depth/fig17c-end2end_d3wt.jpg" width="600" height="250" frame=void rules=none></td>
+       <td><img src="assets/depth/fig17a-scale_cnn_svm.jpg" width="300" height="200" frame=void rules=none></td>
+       <td><img src="assets/depth/fig17b-scale_cnn_fc.jpg" width="300" height="200" frame=void rules=none></td>
+       <td><img src="assets/depth/fig17c-end2end_d3wt.jpg" width="600" height="200" frame=void rules=none></td>
 </table>
