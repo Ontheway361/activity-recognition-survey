@@ -10,7 +10,7 @@ In this section, we list the two streams of methods that transform the sequence 
 
 ### Recurrent Nets and Attention Mechanism
 Recurrent networks are ad hoc for sequential input, e.g. video, signal.
-<p><img src="assets/sequential/fig7-rnn.jpg" width="600" height="250" alt="首页"/></p>
+<p><img src="assets/sequential/fig7-rnn.jpg" width="500" height="250" alt="首页"/></p>
 
 ### Temporal Aggregation
 Sampling and pooling are two major ways of temporal aggregation.
@@ -42,6 +42,18 @@ Pooling as the common component CNNs, which performs on features to to generate 
 In this section, we focus on the approaches utilizing information from multi-views to recognize the human activities. For our survey paper, we initially pay attention to the two ways of view generation: from diverse sensor and various hand-crafted descriptors.
 
 ### Augmentation
-Two-streams is a famous and typical approach, which used both RGB-frame stream and the optical flow stream as the input of model. The pipeline of two-stream is depicted in following figure.
-<p> the pipeline of two-stream </p>
-<img src="assets/view/fig12-two-stream.jpg" width="600" height="180" alt="首页"/>
+Video is an example which contains multiple views in the way that views can be  characterized with respect to vision , audio, subtitles, and even attached comments. For activities recognization using signal data, there are audio, accelerometerm gyroscope, ambient sensor, electrocardiograph, RFID, used in deep learning methods.Two-streams is a famous and typical approach, which used both RGB-frame stream and the optical flow stream as the input of model. The pipeline of two-stream is depicted in following figure.
+<img src="assets/view/fig12-two-stream.jpg" width="600" height="240" alt="首页"/>
+
+### Combination
+In this branch, we reveal various methods that fuse views.
+<table style="border:0px">
+   <tr>
+       <td><img src="assets/view/fig14a-single.jpg" width="250" height="200" frame=void rules=none></td>
+       <td><img src="assets/view/fig14b-early fusion.jpg" width="250" height="200" frame=void rules=none></td>
+</table>
+<table style="border:0px">
+   <tr>
+       <td><img src="assets/view/fig14c-late fusion.jpg" width="250" height="200" frame=void rules=none></td>
+       <td><img src="assets/view/fig14d-slow fusion.jpg" width="250" height="200" frame=void rules=none></td>
+</table>
