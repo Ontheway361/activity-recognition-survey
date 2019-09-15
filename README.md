@@ -69,6 +69,6 @@ In this section, we study the transformations from one vector space to another v
 <table style="border:0px">
    <tr>
        <td><img src="assets/depth/fig17a-scale_cnn_svm.jpg" width="300" height="250" frame=void rules=none></td>
-       <td><img src="assets/depth/factorization/fig17b-scale_cnn_fc.jpg" width="300" height="250" frame=void rules=none></td>
-       <td><img src="assets/depth/factorization/fig17c-end2end_d3wt.jpg" width="600" height="250" frame=void rules=none></td>
+       <td><img src="assets/depth/fig17b-scale_cnn_fc.jpg" width="300" height="250" frame=void rules=none></td>
+       <td><img src="assets/depth/fig17c-end2end_d3wt.jpg" width="600" height="250" frame=void rules=none></td>
 </table>
