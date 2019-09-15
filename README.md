@@ -10,7 +10,7 @@ In this section, we list the two streams of methods that transform the sequence 
 
 ### Recurrent Nets and Attention Mechanism
 Recurrent networks are ad hoc for sequential input, e.g. video, signal.
-<p><img src="assets/sequential/fig7-rnn.jpg" width="600" height="150" alt="首页"/></p>
+<p><img src="assets/sequential/fig7-rnn.jpg" width="600" height="250" alt="首页"/></p>
 
 ### Temporal Aggregation
 Sampling and pooling are two major ways of temporal aggregation.
@@ -30,11 +30,18 @@ For sampling, it is the most intuitive method to convert a flexible length seque
 <p>e. adaptive sampling</p>
 <img src="assets/sequential/fig8d-adaptive.jpg" width="600" height="240" alt="首页"/>
 
-Pooling as the common component CNNs, which performs on features to to generate the more semantic features. We classify pooling-based approaches into three groups, e.g. local pooling, global pooling, slow pooling, according to the place and the times a pooling operation was executed.
+Pooling as the common component CNNs, which performs on features to to generate the more semantic features. We classify pooling-based approaches into three groups, e.g. local pooling(left), global pooling(middle), slow pooling(right), according to the place and the times a pooling operation was executed.
 <table style="border:0px">
    <tr>
-       a. local_pooling                   b. global_pooling                   c. slow_pooling
        <td><img src="assets/sequential/fig10a-local_pooling.jpg" width="250" height="130" frame=void rules=none></td>
        <td><img src="assets/sequential/fig10b-global_pooling.jpg" width="250" height="130" frame=void rules=none></td>
        <td><img src="assets/sequential/fig10c-slow_pooling.jpg" width="250" height="130" frame=void rules=none></td>
 </table>
+
+## View-based
+In this section, we focus on the approaches utilizing information from multi-views to recognize the human activities. For our survey paper, we initially pay attention to the two ways of view generation: from diverse sensor and various hand-crafted descriptors.
+
+### Augmentation
+Two-streams is a famous and typical approach, which used both RGB-frame stream and the optical flow stream as the input of model. The pipeline of two-stream is depicted in following figure.
+<p> the pipeline of two-stream </p>
+<img src="assets/view/fig12-two-stream.jpg" width="600" height="180" alt="首页"/>
