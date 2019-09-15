@@ -10,7 +10,7 @@ In this section, we list the two streams of methods that transform the sequence 
 
 ### Recurrent Nets and Attention Mechanism
 Recurrent networks are ad hoc for sequential input, e.g. video, signal.
-<p><img src="assets/sequential/fig7-rnn.jpg" width="300" height="180" alt="首页"/></p>
+<p><img src="assets/sequential/fig7-rnn.jpg" width="600" height="150" alt="首页"/></p>
 
 ### Temporal Aggregation
 Sampling and pooling are two major ways of temporal aggregation.
@@ -33,7 +33,7 @@ For sampling, it is the most intuitive method to convert a flexible length seque
 Pooling as the common component CNNs, which performs on features to to generate the more semantic features. We classify pooling-based approaches into three groups, e.g. local pooling, global pooling, slow pooling, according to the place and the times a pooling operation was executed.
 <table style="border:0px">
    <tr>
-       a. local_pooling   b. global_pooling   c. slow_pooling
+       a. local_pooling                   b. global_pooling                   c. slow_pooling
        <td><img src="assets/sequential/fig10a-local_pooling.jpg" width="250" height="130" frame=void rules=none></td>
        <td><img src="assets/sequential/fig10b-global_pooling.jpg" width="250" height="130" frame=void rules=none></td>
        <td><img src="assets/sequential/fig10c-slow_pooling.jpg" width="250" height="130" frame=void rules=none></td>
